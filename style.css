@@ -100,7 +100,14 @@ h1{
 }
 
 .dog-image{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
   width: 100%;
+  color: var(--button-color);
   background-color: #f9f9f9;
 } 
 
@@ -300,4 +307,8 @@ hr{
 .treated{
   font-weight: 900;
   opacity: 0.8;
+}
+
+.scroll img{
+  height: 100px;
 }
